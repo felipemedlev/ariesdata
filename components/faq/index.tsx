@@ -53,7 +53,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        We focus on delivering measurable impact. Our clients typically see significant reductions in manual hours (we've helped release over 75,000 annual hours), enhanced financial visibility, and improved decision-making. Our data-driven initiatives empower companies to reallocate effort from repetitive tasks to strategic priorities.
+                        We focus on delivering measurable impact. Our clients typically see significant reductions in manual hours (we&apos;ve helped release over 75,000 annual hours), enhanced financial visibility, and improved decision-making. Our data-driven initiatives empower companies to reallocate effort from repetitive tasks to strategic priorities.
                      </Text>
                   </Flex>
                </Flex>
@@ -70,7 +70,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Our approach is collaborative and structured. It begins with 'Brainstorm & Discovery' to understand your pain points and objectives. We then move to 'Structured Planning & Roadmap' involving an efficiency diagnosis. Next is 'Agile Prototyping & Validation' where we build and test an MVP. Finally, we proceed with 'Full Implementation & Adoption', including training and result tracking.
+                        Our approach is collaborative and structured. It begins with &apos;Brainstorm & Discovery&apos; to understand your pain points and objectives. We then move to &apos;Structured Planning & Roadmap&apos; involving an efficiency diagnosis. Next is &apos;Agile Prototyping & Validation&apos; where we build and test an MVP. Finally, we proceed with &apos;Full Implementation & Adoption&apos;, including training and result tracking.
                      </Text>
                   </Flex>
                </Flex>

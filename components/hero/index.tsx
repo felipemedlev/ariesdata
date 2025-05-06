@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {Button, Divider, Input, Text, useTheme} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
@@ -132,7 +133,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src={imageSrc} />
+               <Image src={imageSrc} alt="Hero image" width={375} height={375} />
             </Box>
          </Flex>
          <Divider

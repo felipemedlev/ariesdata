@@ -57,7 +57,7 @@ export const Statistics = () => {
                      40+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     FTE's equivalent in Productivity
+                     FTE&apos;s equivalent in Productivity
                   </Text>
                </Flex>
                <Flex direction={'column'}>
