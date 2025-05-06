@@ -7,7 +7,7 @@ import {Flex} from '../styles/flex';
 
 export const Hero = () => {
    const { isDark } = useTheme();
-   const imageSrc = isDark ? 'logo_dark.png' : 'mock.png';
+   const imageSrc = isDark ? '/logo_dark.png' : '/mock.png';
 
    return (
       <>
