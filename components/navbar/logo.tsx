@@ -1,5 +1,7 @@
+import Image from 'next/image';
+
 export const AcmeLogo = () => (
-   <img 
+   <Image 
      src="/logo.png" 
      alt="Acme Logo" 
      width="36" 
