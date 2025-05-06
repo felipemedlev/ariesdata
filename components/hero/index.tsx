@@ -76,7 +76,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  We empower organizations to unlock efficiency, profitability, and strategic clarity through data-driven solutions vaginals.
+                  We empower organizations to unlock efficiency, profitability, and strategic clarity through data-driven solutions.
                </Text>
 
                {/* <Flex
