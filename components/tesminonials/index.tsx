@@ -34,8 +34,8 @@ export const Testimonials = () => {
                            gap: '$5',
                         }}
                      >
-                        <QuotesIcon />
                         <Flex direction={'column'} css={{gap: '0.5rem'}}>
+                           <Text h5 weight={'bold'}>Significant Hour Savings</Text>
                            <Text
                               span
                               css={{
@@ -43,29 +43,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
+                              +75K Of Annual hours released. Our data-driven initiatives help companies reallocate effort from repetitive tasks to strategic priorities, across Latin America.
                            </Text>
                         </Flex>
                      </Flex>
@@ -80,8 +58,8 @@ export const Testimonials = () => {
                            gap: '$5',
                         }}
                      >
-                        <QuotesIcon />
                         <Flex direction={'column'} css={{gap: '0.5rem'}}>
+                           <Text h5 weight={'bold'}>Strategic & Scalable Solutions</Text>
                            <Text
                               span
                               css={{
@@ -89,29 +67,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
+                              We begin by mapping pain points, hidden inefficiencies, and fragmented workflows — then design scalable solutions aligned with your business priorities.
                            </Text>
                         </Flex>
                      </Flex>
@@ -126,8 +82,8 @@ export const Testimonials = () => {
                            gap: '$5',
                         }}
                      >
-                        <QuotesIcon />
                         <Flex direction={'column'} css={{gap: '0.5rem'}}>
+                           <Text h5 weight={'bold'}>Tailored Business Intelligence</Text>
                            <Text
                               span
                               css={{
@@ -135,29 +91,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
-                           </Text>
-                           <Text
-                              span
-                              weight={'bold'}
-                              css={{
-                                 maxWidth: '400px',
-                                 display: 'contents',
-                                 color: '$accents9',
-                              }}
-                           >
-                              Jennifer Ford{' '}
-                           </Text>
-                           <Text
-                              span
-                              css={{
-                                 display: 'contents',
-                                 color: '$accents8',
-                              }}
-                           >
-                              - CEO at Company
+                              Our framework delivers measurable efficiency, financial clarity, and business intelligence—tailored for complex, high-demand organizations.
                            </Text>
                         </Flex>
                      </Flex>
@@ -175,14 +109,11 @@ export const Testimonials = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  REAL RESULTS, REAL IMPACT
                </Text>
-               <Text h3>Testimonials</Text>
+               <Text h3>We Don't Just Show Dashboards. We Show Results.</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  A track record of impact, not just technology. We turn insight into execution with the right combination of expertise, agility, and business acumen.
                </Text>
                <Button>Read case studies</Button>
             </Flex>

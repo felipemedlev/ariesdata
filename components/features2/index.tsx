@@ -28,9 +28,9 @@ export const Features2 = () => {
          >
             <Flex direction="column" align={'center'}>
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  Our Process
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Our Approach: From Insight to Impact</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,7 @@ export const Features2 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  We translate strategic priorities into tangible solutions—tested, refined, and deployed with speed. Our approach ensures real-world impact, not just presentations.
                </Text>
 
                <Flex
@@ -60,7 +57,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           Brainstorm & Discovery
                         </Text>
                         <Text
                            span
@@ -69,9 +66,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           We meet with key stakeholders to understand pain points, business objectives, and current capabilities. Together, we identify strategic priorities and define the solution focus.
                         </Text>
                      </Flex>
                   </Flex>
@@ -84,7 +79,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           Structured Planning & Roadmap
                         </Text>
                         <Text
                            span
@@ -93,16 +88,55 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           We conduct a structured efficiency diagnosis: manual hours, repetitive tasks, risk areas, and automation potential. The result is a clear roadmap with quick wins and core initiatives.
+                        </Text>
+                     </Flex>
+                  </Flex>
+                  <Flex
+                     css={{
+                        py: '$10',
+                        gap: '$5',
+                     }}
+                  >
+                     <BoxIcon />
+                     <Flex direction={'column'}>
+                        <Text h4 weight={'medium'}>
+                           Agile Prototyping & Validation
+                        </Text>
+                        <Text
+                           span
+                           css={{
+                              maxWidth: '325px',
+                              color: '$accents8',
+                           }}
+                        >
+                           We build a minimum viable version of the solution—whether a dashboard, automation bot, or data pipeline—using real data. We validate the concept with users before scaling.
+                        </Text>
+                     </Flex>
+                  </Flex>
+                  <Flex
+                     css={{
+                        py: '$10',
+                        gap: '$5',
+                     }}
+                  >
+                     <BoxIcon />
+                     <Flex direction={'column'}>
+                        <Text h4 weight={'medium'}>
+                           Full Implementation & Adoption
+                        </Text>
+                        <Text
+                           span
+                           css={{
+                              maxWidth: '325px',
+                              color: '$accents8',
+                           }}
+                        >
+                           We deliver the full implementation in production, train internal teams, and drive adoption. Results are tracked in hours saved, visibility gained, or compliance achieved.
                         </Text>
                      </Flex>
                   </Flex>
                </Flex>
-            </Flex>
-            <Flex align={'center'}>
-               <FeatureIcon />
             </Flex>
          </Flex>
 

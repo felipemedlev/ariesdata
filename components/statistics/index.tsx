@@ -20,7 +20,7 @@ export const Statistics = () => {
                      textAlign: 'center',
                   }}
                >
-                  Over 8000+ projects completed
+                  Proven Impact Across LATAM
                </Text>
                <Text
                   span
@@ -29,9 +29,7 @@ export const Statistics = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iusto provident omnis deleniti temporibus pariatur corporis
-                  aperiam
+                  Our data-driven initiatives help companies reallocate effort from repetitive tasks to strategic priorities, delivering measurable results.
                </Text>
             </Flex>
             <Flex
@@ -48,34 +46,26 @@ export const Statistics = () => {
             >
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     $500K+
+                     +75K
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Revenue
+                     Annual Hours Saved Through Automation
                   </Text>
                </Flex>
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     10+
+                     40+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Products
+                     FTE's equivalent in Productivity
                   </Text>
                </Flex>
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     $150+
+                     41%
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Components
-                  </Text>
-               </Flex>
-               <Flex direction={'column'}>
-                  <Text h2 css={{color: '$blue600'}}>
-                     10+
-                  </Text>
-                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Employees
+                     RPA and AI Projects
                   </Text>
                </Flex>
             </Flex>

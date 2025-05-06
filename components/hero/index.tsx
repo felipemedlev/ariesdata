@@ -1,10 +1,13 @@
-import {Button, Divider, Input, Text} from '@nextui-org/react';
+import {Button, Divider, Input, Text, useTheme} from '@nextui-org/react';
 import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 
 export const Hero = () => {
+   const { isDark } = useTheme();
+   const imageSrc = isDark ? 'logo_dark.png' : 'mock.png';
+
    return (
       <>
          <Flex
@@ -129,7 +132,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src={imageSrc} />
             </Box>
          </Flex>
          <Divider

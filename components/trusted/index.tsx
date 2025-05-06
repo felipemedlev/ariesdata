@@ -1,8 +1,52 @@
-import {Button, Divider, Grid, Text} from '@nextui-org/react';
+import {Divider, Text, styled, keyframes} from '@nextui-org/react';
 import React from 'react';
-import {AcmeLogo} from '../navbar/logo';
+import Image from 'next/image';
 import {Flex} from '../styles/flex';
 
+const companyLogos = [
+   {src: '/companies/scotiabank.png', alt: 'Scotiabank'},
+   {src: '/companies/bci.png', alt: 'BCI'},
+   {src: '/companies/grupodi.png', alt: 'Grupo DI'},
+   {src: '/companies/sasf.png', alt: 'SASF'}
+];
+
+const scrollX = keyframes({
+   '0%': {transform: 'translateX(0)'},
+   '100%': {transform: 'translateX(-100%)'},
+});
+
+const CarouselContainer = styled('div', {
+   display: 'flex',
+   overflow: 'hidden',
+   width: '100%',
+   py: '$10', // Padding top and bottom
+   '&:hover .scroll-animation': {
+      animationPlayState: 'paused',
+   },
+});
+
+const CarouselTrack = styled('div', {
+   display: 'flex',
+   animation: `${scrollX} 130s linear infinite`, // Adjust duration as needed
+   animationPlayState: 'running',
+   '& > div': {
+      flexShrink: 0,
+      width: '200px', // Adjust width as needed, make sure it's enough for your logos
+      mx: '$8', // Margin left and right for spacing between logos
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+   },
+});
+
+const LogoImage = styled(Image, {
+   objectFit: 'contain',
+   filter: 'grayscale(100%)', // Optional: if you want logos in grayscale
+   transition: 'filter 0.3s ease',
+   '&:hover': {
+      filter: 'grayscale(0%)', // Optional: color on hover
+   },
+});
 export const Trusted = () => {
    return (
       <>
@@ -18,7 +62,7 @@ export const Trusted = () => {
             }}
          >
             <Text h2 css={{textAlign: 'center'}}>
-               Trusted by over 10000+ customers
+               A Smart Choice: Trusted by Industry Leaders
             </Text>
             <Text
                css={{
@@ -29,88 +73,22 @@ export const Trusted = () => {
                weight="normal"
                size={'$lg'}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               We’ve partnered with industry leaders across finance, retail, and tech to design and implement scalable, data-driven solutions with real business impact. Our clients trust us to unlock operational efficiency, automation, and financial visibility.
             </Text>
-            <Grid.Container
-               gap={6}
-               alignItems="center"
-               justify="center"
-               css={{
-                  'width': '100%',
-                  '@sm': {
-                     width: '100%',
-                  },
-                  '&  span': {
-                     whiteSpace: 'pre',
-                  },
-               }}
-            >
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'} justify={'center'}>
-                     <AcmeLogo />
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 1
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 2
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 3
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 4
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 5
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 6
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 7
-                     </Text>
-                  </Flex>
-               </Grid>
-               <Grid sm={3} justify="center">
-                  <Flex align={'center'}>
-                     <AcmeLogo />{' '}
-                     <Text weight={'semibold'} span size={'$lg'}>
-                        Company 8
-                     </Text>
-                  </Flex>
-               </Grid>
-            </Grid.Container>
+            <CarouselContainer>
+               <CarouselTrack className="scroll-animation">
+                  {[...companyLogos, ...companyLogos, ...companyLogos, ...companyLogos].map((company, index) => ( // Duplicate multiple times for seamless loop
+                    <div key={index}>
+                       <LogoImage
+                          src={company.src}
+                          alt={company.alt}
+                          width={150} // Adjust as needed
+                          height={80} // Adjust as needed
+                       />
+                    </div>
+                 ))}
+              </CarouselTrack>
+           </CarouselContainer>
          </Flex>
 
          <Divider

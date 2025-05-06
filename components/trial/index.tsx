@@ -14,7 +14,7 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Start your free trials</Text>
+            <Text h3>Ready to Unlock Your Business Potential?</Text>
             <Text
                span
                css={{
@@ -23,11 +23,10 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-               condimentum, nisl
+               Let's discuss how our data-driven solutions can turn your operational complexity into intelligent simplicity. We deliver strategic clarity, operational efficiency, and measurable impact—without wasting your team’s time.
             </Text>
 
-            <Button>Button</Button>
+            <Button>Schedule a Consultation</Button>
          </Flex>
 
          <Divider

@@ -22,9 +22,9 @@ export const Features3 = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  Our Core Offerings
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>One-Stop Solution for Measurable Impact</Text>
                <Text
                   span
                   css={{
@@ -33,9 +33,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  We provide a one-stop solution that delivers strategic clarity, operational efficiency, and measurable impact—without wasting your team’s time.
                </Text>
             </Flex>
             <Flex
@@ -52,11 +50,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Consultation & Strategic Alignment</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Strategic alignment meetings, operational mapping, and opportunity diagnosis across finance, operations and data.
                            </Text>
                         </Flex>
                      </Flex>
@@ -67,11 +63,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Rapid Prototyping & MVP Development</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Quick MVPs, dashboards, automations or reports tailored to your real data and tested with your teams.
                            </Text>
                         </Flex>
                      </Flex>
@@ -85,6 +79,11 @@ export const Features3 = () => {
                css={{
                   gap: '1rem',
                   pt: '$8',
+                  '@sm': { // Center the third card on small screens and up
+                     pt: '$8',
+                     display: 'flex',
+                     justifyContent: 'center',
+                  }
                }}
             >
                <Card css={{mw: '500px'}}>
@@ -92,26 +91,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Executive Summaries & Impact Reporting</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Executive dashboards, financial impact reports, and clear next steps that speak the language of decision-makers.
                            </Text>
                         </Flex>
                      </Flex>

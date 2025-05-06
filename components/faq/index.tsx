@@ -19,7 +19,7 @@ export const Faq = () => {
                <Text span css={{color: '$blue600'}}>
                   FAQ
                </Text>
-               <Text h2>You Have Questions?</Text>
+               <Text h2>We Have Answers</Text>
                <Text
                   span
                   css={{
@@ -28,9 +28,7 @@ export const Faq = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                  aliquet
+                  Find answers to common questions about our services, approach, and the impact we deliver for organizations like yours.
                </Text>
             </Flex>
 
@@ -47,8 +45,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        What kind of results can we expect from your solutions?
                      </Text>
                      <Text
                         span
@@ -56,28 +53,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Sed condimentum, nisl ut aliquam
-                        lacinia, nisl nisl aliquet aliquet Lorem ipsum dolor sit
-                        amet, consectetur adipiscing elit. Sed condimentum, nisl
-                        ut aliquam lacinia, nisl nisl aliquet aliquet Lorem
-                        ipsum dolor sit amet, aliquam lacinia, nisl nisl aliquet
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
+                        We focus on delivering measurable impact. Our clients typically see significant reductions in manual hours (we've helped release over 75,000 annual hours), enhanced financial visibility, and improved decision-making. Our data-driven initiatives empower companies to reallocate effort from repetitive tasks to strategic priorities.
                      </Text>
                   </Flex>
                </Flex>
@@ -86,8 +62,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        What is your typical process for a new project?
                      </Text>
                      <Text
                         span
@@ -95,25 +70,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing adipiscing elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, aliquet
+                        Our approach is collaborative and structured. It begins with 'Brainstorm & Discovery' to understand your pain points and objectives. We then move to 'Structured Planning & Roadmap' involving an efficiency diagnosis. Next is 'Agile Prototyping & Validation' where we build and test an MVP. Finally, we proceed with 'Full Implementation & Adoption', including training and result tracking.
                      </Text>
                   </Flex>
                </Flex>
@@ -122,8 +79,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        How do you ensure data security and regulatory compliance?
                      </Text>
                      <Text
                         span
@@ -131,21 +87,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
+                        Security and compliance are paramount. All our frameworks are meticulously designed for traceability, robust governance, and adherence to regulatory standards, including compatibility with systems like SAP, GCP, and financial regulations such as IFRS/NIIF.
                      </Text>
                   </Flex>
                </Flex>
@@ -154,8 +96,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        What industries do you primarily serve?
                      </Text>
                      <Text
                         span
@@ -163,23 +104,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
+                        We have a strong track record across various sectors, with significant experience in finance, retail, and tech. We've partnered with major players like Scotiabank, BCI Corredora de Bolsa, Grupo DI, and SASF to implement scalable, data-driven solutions that deliver real business impact.
                      </Text>
                   </Flex>
                </Flex>

@@ -28,9 +28,9 @@ export const Features1 = () => {
          >
             <Flex direction="column">
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  Data-Driven Solutions
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Unlock Efficiency, Profitability, and Strategic Clarity</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  We empower organizations to unlock efficiency, profitability, and strategic clarity through data-driven solutions. With over 10 years of experience leading regional data transformation in LATAM’s largest corporations, we bring scalable, AI-ready, and automation-driven frameworks that reduce operational costs, enhance financial visibility, and elevate decision-making.
                </Text>
 
                <Flex
@@ -53,7 +50,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Proven Expertise
                      </Text>
                      <Text
                         span
@@ -62,9 +59,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Over 60 projects delivered across LATAM in finance, operations, and automation—validated with real savings and measurable ROI. Leadership in analytics, forecasting, BI, and process redesign for companies with +$1B in annual revenue.
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +72,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Security and Compliance
                      </Text>
                      <Text
                         span
@@ -86,9 +81,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        All our frameworks are built for traceability, governance, and regulatory compliance (SAP, GCP, IFRS/NIIF).
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +94,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Our Mission: Intelligent Simplicity
                      </Text>
                      <Text
                         span
@@ -110,15 +103,10 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        To turn operational complexity into intelligent simplicity — with technology, analytics, and real business insight.
                      </Text>
                   </Flex>
                </Flex>
-            </Flex>
-            <Flex align={'center'}>
-               <FeatureIcon />
             </Flex>
          </Flex>
          <Divider
