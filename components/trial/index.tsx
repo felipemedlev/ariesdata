@@ -23,7 +23,7 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Let's discuss how our data-driven solutions can turn your operational complexity into intelligent simplicity. We deliver strategic clarity, operational efficiency, and measurable impact—without wasting your team’s time.
+               Let&apos;s discuss how our data-driven solutions can turn your operational complexity into intelligent simplicity. We deliver strategic clarity, operational efficiency, and measurable impact—without wasting your team’s time.
             </Text>
 
             <Button>Schedule a Consultation</Button>

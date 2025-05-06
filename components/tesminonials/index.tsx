@@ -111,7 +111,7 @@ export const Testimonials = () => {
                <Text span css={{color: '$blue600'}}>
                   REAL RESULTS, REAL IMPACT
                </Text>
-               <Text h3>We Don't Just Show Dashboards. We Show Results.</Text>
+               <Text h3>We Don&apos;t Just Show Dashboards. We Show Results.</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
                   A track record of impact, not just technology. We turn insight into execution with the right combination of expertise, agility, and business acumen.
                </Text>
