@@ -129,7 +129,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.jpeg" />
+               <img src="mock.png" />
             </Box>
          </Flex>
          <Divider
