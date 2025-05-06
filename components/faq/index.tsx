@@ -104,7 +104,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        We have a strong track record across various sectors, with significant experience in finance, retail, and tech. We've partnered with major players like Scotiabank, BCI Corredora de Bolsa, Grupo DI, and SASF to implement scalable, data-driven solutions that deliver real business impact.
+                        We have a strong track record across various sectors, with significant experience in finance, retail, and tech. We&amp;apos;ve partnered with major players like Scotiabank, BCI Corredora de Bolsa, Grupo DI, and SASF to implement scalable, data-driven solutions that deliver real business impact.
                      </Text>
                   </Flex>
                </Flex>
