@@ -13,7 +13,7 @@ export const Footer = () => {
          }}
       >
          <Box as={'footer'} css={{width: '100%'}}>
-            <Flex
+            {/* <Flex
                justify={'center'}
                wrap={'wrap'}
                align={'center'}
@@ -170,7 +170,7 @@ export const Footer = () => {
                      </Box>
                   </Box>
                </Flex>
-            </Flex>
+            </Flex> */}
             <Box
                css={{
                   'px': '$10',
@@ -228,7 +228,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2025 ARIES ANALYTICS.
                      </Text>
                   </Flex>
                </Flex>

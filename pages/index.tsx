@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             <Features3 />
             <Testimonials />
             <Statistics />
-            <Plans />
+            {/* <Plans /> */}
             <Faq />
             <Trial />
             <Footer />

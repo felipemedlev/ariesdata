@@ -18,7 +18,7 @@ export const Hero = () => {
                'width': '100%',
                '@sm': {
                   flexDirection: 'row',
-                  mt: '$20',
+                  mt: '$10',
                },
             }}
             justify={'center'}
@@ -43,7 +43,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Driving efficiency and clarity{' '}
                   </Text>
                   <Text
                      h1
@@ -51,7 +51,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+                     through{' '}
                   </Text>
                   <Text
                      h1
@@ -60,7 +60,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     Data
                   </Text>
                </Box>
 
@@ -72,11 +72,10 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  We empower organizations to unlock efficiency, profitability, and strategic clarity through data-driven solutions
                </Text>
 
-               <Flex
+               {/* <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
@@ -120,17 +119,17 @@ export const Hero = () => {
                   >
                      <CheckIcon /> Cancel anytime.
                   </Flex>
-               </Flex>
+               </Flex> */}
             </Box>
             <Box
                css={{
                   '& img': {
-                     width: '775px',
+                     width: '375px',
                      objectFit: 'contain',
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="mock.jpeg" />
             </Box>
          </Flex>
          <Divider

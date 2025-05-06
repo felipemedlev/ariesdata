@@ -32,7 +32,7 @@ export const Nav = () => {
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
             <AcmeLogo />
             <Text b color="inherit" hideIn="xs">
-               ACME
+               ARIES
             </Text>
             <Navbar.Content
                hideIn="sm"
@@ -138,7 +138,7 @@ export const Nav = () => {
                   </Link>
                </Navbar.CollapseItem>
             ))}
-            <Navbar.CollapseItem>
+            {/* <Navbar.CollapseItem>
                <Link
                   color="inherit"
                   css={{
@@ -149,7 +149,7 @@ export const Nav = () => {
                >
                   <GithubIcon />
                </Link>
-            </Navbar.CollapseItem>
+            </Navbar.CollapseItem> */}
             <Navbar.CollapseItem>
                <Switch
                   checked={isDark}
@@ -160,14 +160,14 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
+            {/* <ModalLogin /> */}
 
-            <Navbar.Item>
+            {/* <Navbar.Item>
                <Button auto flat href="#">
                   Start free trial
                </Button>
-            </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
+            </Navbar.Item> */}
+            {/* <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
                   css={{
@@ -178,7 +178,7 @@ export const Nav = () => {
                >
                   <GithubIcon />
                </Link>
-            </Navbar.Item>
+            </Navbar.Item> */}
             <Navbar.Item hideIn={'xs'}>
                <Switch
                   checked={isDark}

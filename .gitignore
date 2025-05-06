@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.roomodes
+generate_mcp_yaml.py
+install_rooflow.cmd
+/memory-bank
