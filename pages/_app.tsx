@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import type {AppProps} from 'next/app';
 import {createTheme, NextUIProvider} from '@nextui-org/react';
 import {ThemeProvider as NextThemesProvider} from 'next-themes';
-                                                                           
+
 const lightTheme = createTheme({
    type: 'light',
    theme: {
@@ -15,7 +15,9 @@ const lightTheme = createTheme({
 const darkTheme = createTheme({
    type: 'dark',
    theme: {
-      colors: {},
+      colors: {
+         primary: '#12caec'
+      },
    },
 });
 
