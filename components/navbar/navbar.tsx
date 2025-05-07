@@ -77,42 +77,42 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="autoscaling"
                         showFullDescription
-                        description="ACME scales apps to meet user demand, automagically, based on load."
+                        description="Process automation and optimization to reduce operational costs and increase productivity."
                         icon={icons.scale}
                      >
-                        Autoscaling
+                        Efficiency As A Service
                      </Dropdown.Item>
                      <Dropdown.Item
                         key="usage_metrics"
                         showFullDescription
-                        description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
+                        description="Dashboards for financial processes. Data pipelines from databases for C-Level insights."
                         icon={icons.activity}
                      >
-                        Usage Metrics
+                        Financial Layer
                      </Dropdown.Item>
                      <Dropdown.Item
                         key="production_ready"
                         showFullDescription
-                        description="ACME runs on ACME, join us and others serving requests at web scale."
+                        description="Regulatory compliance projects and enterprise data catalog creation."
                         icon={icons.flash}
                      >
-                        Production Ready
+                        Data Gobernance
                      </Dropdown.Item>
                      <Dropdown.Item
                         key="99_uptime"
                         showFullDescription
-                        description="Applications stay on the grid with high availability and high uptime guarantees."
+                        description="Design and deployment of AI models to solve business challenges."
                         icon={icons.server}
                      >
-                        +99% Uptime
+                        Artificial Intelligence
                      </Dropdown.Item>
                      <Dropdown.Item
                         key="supreme_support"
                         showFullDescription
-                        description="Overcome any challenge with a supporting team ready to respond."
+                        description="Integration of cloud platforms with on-premise systems like SAP, Hyperion, and more."
                         icon={icons.user}
                      >
-                        +Supreme Support
+                        System Connections
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
