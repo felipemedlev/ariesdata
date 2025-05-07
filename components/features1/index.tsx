@@ -38,7 +38,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  We empower organizations to unlock efficiency, profitability, and strategic clarity through data-driven solutions. With over 10 years of experience leading regional data transformation in LATAM’s largest corporations, we bring scalable, AI-ready, and automation-driven frameworks that reduce operational costs, enhance financial visibility, and elevate decision-making.
+                  At Aries Analytics, we transform operational complexity into intelligent simplicity. With over a decade of experience driving data transformation in LATAMs leading corporations, we deliver scalable, AI-ready frameworks that reduce costs, enhance financial visibility, and empower strategic decision-making.
                </Text>
 
                <Flex

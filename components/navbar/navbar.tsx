@@ -79,6 +79,7 @@ export const Nav = () => {
                         showFullDescription
                         description="Process automation and optimization to reduce operational costs and increase productivity."
                         icon={icons.scale}
+                        
                      >
                         Efficiency As A Service
                      </Dropdown.Item>
@@ -116,10 +117,14 @@ export const Nav = () => {
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
+
                <Navbar.Link isActive href="#">
                   Customers
                </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
+               
+               {/*
+               <Navbar.Link href="#">Pricing</Navbar.Link>*/}
+
                <Navbar.Link href="#">Company</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
