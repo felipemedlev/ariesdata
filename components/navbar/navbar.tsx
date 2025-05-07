@@ -6,8 +6,11 @@ import {AcmeLogo} from './logo';
 import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
+import { useRouter } from 'next/router';
+import NextLink from 'next/link';
 
 export const Nav = () => {
+   const router = useRouter();
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
@@ -30,10 +33,12 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
-               ARIES
-            </Text>
+            <NextLink href="/">
+              <AcmeLogo />
+              <Text b color="inherit" hideIn="xs">
+                 ARIES
+              </Text>
+            </NextLink>
             <Navbar.Content
                hideIn="sm"
                css={{
@@ -58,6 +63,12 @@ export const Nav = () => {
                   </Navbar.Item>
                   <Dropdown.Menu
                      aria-label="ACME features"
+                     onAction={(key) => {
+                        if (key === 'autoscaling') {
+                           router.push('/efficiency-as-a-service');
+                        }
+                        // Add other cases for other dropdown items if needed
+                     }}
                      css={{
                         '$$dropdownMenuWidth': '340px',
                         '$$dropdownItemHeight': '70px',

@@ -15,7 +15,6 @@ export const Features2 = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'px': '$6',
-
                '@sm': {
                   gap: '5rem',
                   flexDirection: 'row-reverse',
@@ -34,7 +33,7 @@ export const Features2 = () => {
                <Text
                   span
                   css={{
-                     maxWidth: '400px',
+                     // maxWidth: '400px',
                      color: '$accents8',
                   }}
                >
