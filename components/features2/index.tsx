@@ -27,7 +27,7 @@ export const Features2 = () => {
             }}
          >
             <Flex direction="column" align={'center'}>
-               <Text span css={{color: '$blue600'}}>
+               <Text span css={{color: '$primary'}}>
                   Our Process
                </Text>
                <Text h3>Our Approach: From Insight to Impact</Text>

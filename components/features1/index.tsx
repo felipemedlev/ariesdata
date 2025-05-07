@@ -27,7 +27,7 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
+               <Text span css={{color: '$primary'}}>
                   Data-Driven Solutions
                </Text>
                <Text h3>Unlock Efficiency, Profitability, and Strategic Clarity</Text>

@@ -21,7 +21,7 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
+               <Text span css={{color: '$primary'}}>
                   Our Core Offerings
                </Text>
                <Text h3>One-Stop Solution for Measurable Impact</Text>

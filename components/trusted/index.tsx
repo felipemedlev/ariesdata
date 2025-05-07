@@ -61,9 +61,10 @@ export const Trusted = () => {
                },
             }}
          >
-            <Text h2 css={{textAlign: 'center'}}>
-               A Smart Choice: Trusted by Industry Leaders
+            <Text h2 css={{ textAlign: 'center' }}>
+               A <Text span css={{ color: '$primary', fontWeight: 'bold' }}>Smart Choice</Text>: Trusted by Industry Leaders
             </Text>
+
             <Text
                css={{
                   color: '$accents8',
@@ -73,7 +74,7 @@ export const Trusted = () => {
                weight="normal"
                size={'$lg'}
             >
-               We’ve partnered with industry leaders across finance, retail, and tech to design and implement scalable, data-driven solutions with real business impact. Our clients trust us to unlock operational efficiency, automation, and financial visibility.
+               We have partnered with industry leaders across finance, retail, and tech to design and implement scalable, data-driven solutions with real business impact. Our clients trust us to unlock operational efficiency, automation, and financial visibility.
             </Text>
             <CarouselContainer>
                <CarouselTrack className="scroll-animation">
