@@ -88,7 +88,9 @@ const EfficiencyAsAService: NextPage = () => {
 
             <Flex wrap="wrap" justify="center" css={{ gap: '$10', mt: '$10' }}>
               <Card css={{ p: '$8', mw: '300px' }}>
-                <AiOutlineFileSearch size={40} color="#12caec" />
+              <Box css={{ mb: '$4' }}>
+                    {AiOutlineFileSearch({ size: 40, color: '#12caec' })}
+                </Box>
                 <Spacer y={0.5} />
                 <Text h4>XBRL File Reader</Text>
                 <Text css={{ color: '$accents7' }}>
@@ -97,7 +99,9 @@ const EfficiencyAsAService: NextPage = () => {
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <AiOutlineCalculator size={40} color="#12caec" />
+              <Box css={{ mb: '$4' }}>
+                {AiOutlineFileSearch({ size: 40, color: '#12caec' })}
+                </Box>
                 <Spacer y={0.5} />
                 <Text h4>Automated Tax Calculations</Text>
                 <Text css={{ color: '$accents7' }}>
@@ -106,7 +110,9 @@ const EfficiencyAsAService: NextPage = () => {
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <AiOutlineCloudDownload size={40} color="#12caec" />
+              <Box css={{ mb: '$4' }}>
+                    {AiOutlineFileSearch({ size: 40, color: '#12caec' })}
+                </Box>
                 <Spacer y={0.5} />
                 <Text h4>CMF Competitor Data Reader</Text>
                 <Text css={{ color: '$accents7' }}>
@@ -115,7 +121,9 @@ const EfficiencyAsAService: NextPage = () => {
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <AiOutlineFileText size={40} color="#12caec" />
+              <Box css={{ mb: '$4' }}>
+                    {AiOutlineFileSearch({ size: 40, color: '#12caec' })}
+                </Box>
                 <Spacer y={0.5} />
                 <Text h4>XBRL Creation Engine</Text>
                 <Text css={{ color: '$accents7' }}>
