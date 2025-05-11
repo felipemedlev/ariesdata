@@ -64,9 +64,23 @@ export const Nav = () => {
                   <Dropdown.Menu
                      aria-label="ACME features"
                      onAction={(key) => {
+
                         if (key === 'autoscaling') {
                            router.push('/efficiency-as-a-service');
                         }
+                        if (key === 'usage_metrics') {
+                           router.push('/financial_layer');
+                        }
+                        if (key === 'production_ready') {
+                           router.push('/data-gobernance');
+                        }
+                        if (key === '99_uptime') {
+                           router.push('/artificial-intelligence');
+                        }
+                        if (key === 'supreme_support') {
+                           router.push('/system-connection');
+                        }
+
                         // Add other cases for other dropdown items if needed
                      }}
                      css={{
