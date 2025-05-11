@@ -5,23 +5,23 @@ import { Box } from '../components/styles/box';
 import { Text, Divider, Card, Spacer } from '@nextui-org/react';
 import { Flex } from '../components/styles/flex';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { AiOutlineFundProjectionScreen, AiOutlineDashboard, AiOutlinePieChart, AiOutlineAudit } from 'react-icons/ai';
+import { AiOutlineCloudServer, AiOutlineShareAlt, AiOutlineGlobal, AiOutlineUnlock } from 'react-icons/ai';
 
 const data = [
-  { metric: 'Monthly Rebate Recovery (USD)', Before: 0, After: 34500 },
-  { metric: 'Decision-Making Speed (Index)', Before: 40, After: 90 },
-  { metric: 'Manual Report Hours Saved', Before: 80, After: 5 },
+  { metric: 'Manual Integration Hours (Annual)', Before: 42000, After: 0 },
+  { metric: 'Data Access Cost (Index)', Before: 100, After: 10 },
+  { metric: 'ERP System Load (%)', Before: 95, After: 35 },
 ];
 
-const FinancialLayer: NextPage = () => {
+const SystemConnections: NextPage = () => {
   return (
     <Layout>
       <Nav />
       <Box as="main" css={{ px: '$6' }}>
         <Flex direction="column" justify="center" align="center" css={{ pt: '$20', pb: '$10', textAlign: 'center', gap: '$8' }}>
-          <Text h1>Financial Layer</Text>
+          <Text h1>System Connections</Text>
           <Text css={{ color: '$accents8', maxWidth: '800px' }} size={'$xl'} span>
-            Strategic dashboards and financial visibility solutions to empower CFOs with real-time insights, cost control, and automated reporting.
+            We build scalable, secure bridges between your core systems and modern data platforms—unlocking value, reducing licensing costs, and enabling real-time access.
           </Text>
         </Flex>
 
@@ -30,28 +30,28 @@ const FinancialLayer: NextPage = () => {
         {/* Impact Section */}
         <Box css={{ px: '$6', pb: '$20' }}>
           <Flex direction="column" justify="center" align="center" css={{ gap: '$10', textAlign: 'center' }}>
-            <Text h2>Real Business Impact for Financial Leaders</Text>
+            <Text h2>Infrastructure-Driven Efficiency</Text>
             <Text css={{ maxWidth: '800px', color: '$accents8' }} size={'$lg'}>
-              Our solutions deliver measurable results in cost recovery, governance, and executive decision-making speed. Designed to support multinational CFOs and finance teams in their transformation journey.
+              By connecting ERPs like SAP, Oracle and Softland to platforms such as Google Cloud, AWS, or Azure, we save thousands of hours while boosting performance and access.
             </Text>
 
             <Flex wrap="wrap" justify="center" css={{ gap: '$10', mt: '$10' }}>
               <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
-                <Text h2 color="primary">$34.5K</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>monthly savings via rebate validation</Text>
-              </Flex>
-              <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
-                <Text h2 color="primary">+50%</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>faster strategic decisions</Text>
+                <Text h2 color="primary">+42,000</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>annual hours saved via automation</Text>
               </Flex>
               <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
                 <Text h2 color="primary">-90%</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>manual reporting workload</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>data access licensing cost</Text>
+              </Flex>
+              <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
+                <Text h2 color="primary">-60%</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>ERP system overload</Text>
               </Flex>
             </Flex>
 
             <Box css={{ mt: '$20', width: '100%', maxWidth: '900px', height: '400px' }}>
-              <Text h4 css={{ mb: '$5' }}>Before vs After Financial Intelligence Deployment</Text>
+              <Text h4 css={{ mb: '$5' }}>Before vs After Connecting Systems to the Cloud</Text>
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={data} layout="vertical" margin={{ top: 20, right: 20, left: 20, bottom: 5 }}>
                   <XAxis type="number" />
@@ -71,42 +71,42 @@ const FinancialLayer: NextPage = () => {
         {/* Use Cases Section */}
         <Box css={{ px: '$6', pb: '$20' }}>
           <Flex direction="column" align="center" css={{ gap: '$10', textAlign: 'center' }}>
-            <Text h2>Flagship Solutions</Text>
+            <Text h2>Core Integrations</Text>
 
             <Flex wrap="wrap" justify="center" css={{ gap: '$10', mt: '$10' }}>
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineFundProjectionScreen({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineCloudServer({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>Smart Rebate Validator</Text>
+                <Text h4>SAP ↔ Google Cloud Platform</Text>
                 <Text css={{ color: '$accents7' }}>
-                  A centralized interface for validating and receiving rebate invoices. Generates over $34K/month in savings by recovering missed agreements.
+                  Automates extraction of SAP data to BigQuery, enabling real-time dashboards and eliminating overuse of ERP resources.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineDashboard({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineGlobal({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>CFO360 Dashboard</Text>
+                <Text h4>Softland ↔ Google Cloud Platform</Text>
                 <Text css={{ color: '$accents7' }}>
-                  A unified command center for monitoring sales across categories, channels, and timeframes. Fully aligned with press releases and business KPIs.
+                  Connects legacy systems with modern cloud infrastructure for streamlined financial and operational analytics.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlinePieChart({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineShareAlt({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>GAV Control Panel</Text>
+                <Text h4>Oracle ERP ↔ Azure</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Tracks administrative and sales expenses by cost center directly from ERP. Enables financial discipline and transparency.
+                  Leverages Microsoft cloud to centralize enterprise data for improved performance, access control, and reporting.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineAudit({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineUnlock({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>Modern Cash Flow Engine</Text>
+                <Text h4>AWS ↔ Multi-ERP Sync</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Replaces outdated spreadsheets with real-time SAP-integrated forecasting, ensuring consistency, auditability, and strategic planning.
+                  Enables multi-ERP consolidation and sync with AWS data lakes, unlocking scalability without additional ERP licensing.
                 </Text>
               </Card>
             </Flex>
@@ -117,4 +117,4 @@ const FinancialLayer: NextPage = () => {
   );
 };
 
-export default FinancialLayer;
+export default SystemConnections;

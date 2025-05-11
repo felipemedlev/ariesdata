@@ -77,6 +77,10 @@ export const Nav = () => {
                         if (key === '99_uptime') {
                            router.push('/artificial-intelligence');
                         }
+                         if (key === 'supreme_support') {
+                           router.push('/system-connection');
+                        }                       
+
                         // Add other cases for other dropdown items if needed
                      }}
                      css={{
