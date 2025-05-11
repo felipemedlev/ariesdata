@@ -71,8 +71,12 @@ export const Nav = () => {
                         if (key === 'usage_metrics') {
                            router.push('/financial_layer');
                         }
-
-
+                        if (key === 'production_ready') {
+                           router.push('/data-gobernance');
+                        }
+                        if (key === '99_uptime') {
+                           router.push('/artificial-intelligence');
+                        }
                         // Add other cases for other dropdown items if needed
                      }}
                      css={{

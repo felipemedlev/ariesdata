@@ -5,23 +5,23 @@ import { Box } from '../components/styles/box';
 import { Text, Divider, Card, Spacer } from '@nextui-org/react';
 import { Flex } from '../components/styles/flex';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { AiOutlineSafetyCertificate, AiOutlineDatabase, AiOutlineDeploymentUnit, AiOutlineAlert } from 'react-icons/ai';
+import { AiOutlineLineChart, AiOutlineDollarCircle, AiOutlineFileSearch, AiOutlineBarChart } from 'react-icons/ai';
 
 const data = [
-  { metric: 'Long-Term Provision Accuracy (USD)', Before: 0, After: 18000 },
-  { metric: 'Regulatory Compliance Risk (Index)', Before: 80, After: 10 },
-  { metric: 'Manual Hours in Risk Reporting', Before: 4000, After: 150 },
+  { metric: 'Forecast Accuracy (%)', Before: 65, After: 90 },
+  { metric: 'USD Hedging Justification', Before: 0, After: 160000000 },
+  { metric: 'Manual Contract Reading Hours', Before: 8000, After: 500 },
 ];
 
-const DataGovernance: NextPage = () => {
+const ArtificialIntelligence: NextPage = () => {
   return (
     <Layout>
       <Nav />
       <Box as="main" css={{ px: '$6' }}>
         <Flex direction="column" justify="center" align="center" css={{ pt: '$20', pb: '$10', textAlign: 'center', gap: '$8' }}>
-          <Text h1>Data Governance</Text>
+          <Text h1>Artificial Intelligence</Text>
           <Text css={{ color: '$accents8', maxWidth: '800px' }} size={'$xl'} span>
-            Build trust, ensure compliance, and streamline access to critical information through automated regulatory processes and centralized data catalogs.
+            Machine learning solutions that forecast, optimize, and extract value from unstructured data—turning information into strategic action.
           </Text>
         </Flex>
 
@@ -30,28 +30,28 @@ const DataGovernance: NextPage = () => {
         {/* Impact Section */}
         <Box css={{ px: '$6', pb: '$20' }}>
           <Flex direction="column" justify="center" align="center" css={{ gap: '$10', textAlign: 'center' }}>
-            <Text h2>Strategic Impact for Governance and Compliance</Text>
+            <Text h2>Intelligence That Drives the Business</Text>
             <Text css={{ maxWidth: '800px', color: '$accents8' }} size={'$lg'}>
-              Our data governance projects reduce regulatory risk, ensure transparency, and create reliable foundations for decision-making across the enterprise.
+              Our AI models enhance forecasting precision, support financial hedging strategies, and automate document processing to save time and reduce human error.
             </Text>
 
             <Flex wrap="wrap" justify="center" css={{ gap: '$10', mt: '$10' }}>
               <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
-                <Text h2 color="primary">+3,800</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>manual hours saved annually</Text>
+                <Text h2 color="primary">+38%</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>forecast accuracy improvement</Text>
               </Flex>
               <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
-                <Text h2 color="primary">$18K</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>savings via improved LTI provisions</Text>
+                <Text h2 color="primary">$160M</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>hedging strategies supported</Text>
               </Flex>
               <Flex direction="column" align="center" css={{ minWidth: '250px' }}>
-                <Text h2 color="primary">-87%</Text>
-                <Text span size="$sm" css={{ color: '$accents7' }}>compliance workload reduction</Text>
+                <Text h2 color="primary">-93%</Text>
+                <Text span size="$sm" css={{ color: '$accents7' }}>manual contract reading effort</Text>
               </Flex>
             </Flex>
 
             <Box css={{ mt: '$20', width: '100%', maxWidth: '900px', height: '400px' }}>
-              <Text h4 css={{ mb: '$5' }}>Before vs After Governance Automation</Text>
+              <Text h4 css={{ mb: '$5' }}>Before vs After AI Deployment</Text>
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={data} layout="vertical" margin={{ top: 20, right: 20, left: 20, bottom: 5 }}>
                   <XAxis type="number" />
@@ -71,42 +71,42 @@ const DataGovernance: NextPage = () => {
         {/* Use Cases Section */}
         <Box css={{ px: '$6', pb: '$20' }}>
           <Flex direction="column" align="center" css={{ gap: '$10', textAlign: 'center' }}>
-            <Text h2>Core Governance Projects</Text>
+            <Text h2>Applied AI Use Cases</Text>
 
             <Flex wrap="wrap" justify="center" css={{ gap: '$10', mt: '$10' }}>
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineSafetyCertificate({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineLineChart({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>Operational Risk Certification Engine</Text>
+                <Text h4>Demand Forecasting Engine</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Automates banking processes to maintain regulatory certifications, such as operational risk audits, with traceability and consistency.
+                  Predicts sales across product lines, geographies, and channels to better align budgets and supply chain with market dynamics.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineAlert({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineDollarCircle({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>Credit Risk Automation (B2B)</Text>
+                <Text h4>Price Transfer Model</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Monitors client credit exposure and automates daily updates for financial decision-makers in B2B sales.
+                  Quantifies exchange rate impact and recommends financial instrument coverage strategies to protect margins on international products.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineDatabase({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineFileSearch({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>Enterprise Data Catalog</Text>
+                <Text h4>Contract Intelligence Extractor</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Enables teams to locate, understand, and use key datasets faster. A foundation for self-service analytics and cross-functional collaboration.
+                  Automates extraction of key data from large volumes of contracts, invoices, and energy bills—saving over 7,500 hours annually in teams of 20+.
                 </Text>
               </Card>
 
               <Card css={{ p: '$8', mw: '300px' }}>
-                <Box css={{ mb: '$4' }}>{AiOutlineDeploymentUnit({ size: 40, color: '#12caec' })}</Box>
+                <Box css={{ mb: '$4' }}>{AiOutlineBarChart({ size: 40, color: '#12caec' })}</Box>
                 <Spacer y={0.5} />
-                <Text h4>LTI Provisioning Framework</Text>
+                <Text h4>Forecast Accuracy Evaluator</Text>
                 <Text css={{ color: '$accents7' }}>
-                  Automates calculation and reconciliation of long-term incentive provisions, ensuring accuracy and auditability.
+                  Continuously measures and refines predictive models, offering insights on deviation vs plan, over/under forecasting, and volatility.
                 </Text>
               </Card>
             </Flex>
@@ -117,4 +117,4 @@ const DataGovernance: NextPage = () => {
   );
 };
 
-export default DataGovernance;
+export default ArtificialIntelligence;
