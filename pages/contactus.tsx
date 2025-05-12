@@ -24,6 +24,7 @@ const onSubmit = async (data: FormData) => {
       body: JSON.stringify(data),
     });
 
+    
     if (response.ok) {
       alert("Your message has been sent successfully!");
       reset();
