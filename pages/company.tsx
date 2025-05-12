@@ -56,7 +56,7 @@ const Company: NextPage = () => {
               <Spacer y={0.5} />
               <Text h4>Innovation Partners</Text>
               <Text css={{ color: '$accents7' }}>
-                We've collaborated with BCI, Scotiabank, and the Santiago Chamber of Commerce to build cutting-edge solutions from scratch.
+                We have collaborated with BCI, Scotiabank, and the Santiago Chamber of Commerce to build cutting-edge solutions from scratch.
               </Text>
             </Card>
           </Flex>
