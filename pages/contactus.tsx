@@ -28,9 +28,9 @@ const ContactUs: NextPage = () => {
       <Nav />
       <Box as="main" css={{ px: '$6' }}>
         <Flex direction="column" align="center" justify="center" css={{ pt: '$20', gap: '$10', textAlign: 'center' }}>
-          <Text h1>Let's Build Something Extraordinary</Text>
+          <Text h1>Let&apos;s Build Something Extraordinary</Text>
           <Text css={{ color: '$accents8', maxWidth: '700px' }}>
-            Whether you're looking to streamline operations, explore AI opportunities, or connect your systems, we're here to help.
+            Whether you&apos;re looking to streamline operations, explore AI opportunities, or connect your systems, we&apos;re here to help.
           </Text>
         </Flex>
 
