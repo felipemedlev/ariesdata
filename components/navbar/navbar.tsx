@@ -14,7 +14,7 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      { label: 'Features', href: '/efficiency-as-a-service' },
+      { label: 'Efficiency as a Service', href: '/efficiency-as-a-service' },
       { label: 'Financial Layer', href: '/financial_layer' },
       { label: 'Data Governance', href: '/data-gobernance' },
       { label: 'Artificial Intelligence', href: '/artificial-intelligence' },
