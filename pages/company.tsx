@@ -72,7 +72,7 @@ const Company: NextPage = () => {
               We believe that the power of data should be accessible, actionable, and valuable to everyone—from C-level executives to technical teams. We combine business understanding with technical depth to make it happen.
             </Text>
             <Text css={{ maxWidth: '800px', color: '$accents8' }} size={'$lg'}>
-              Whether it's building forecasting models, automating tax processes, or integrating multi-cloud infrastructure, our goal is the same: simplify complexity and generate measurable impact.
+              Whether it is building forecasting models, automating tax processes, or integrating multi-cloud infrastructure, our goal is the same: simplify complexity and generate measurable impact.
             </Text>
           </Flex>
         </Box>
