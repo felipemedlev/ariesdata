@@ -15,11 +15,26 @@ type FormData = {
 
 const ContactUs: NextPage = () => {
   const { register, handleSubmit, formState: { errors, isSubmitting }, reset } = useForm<FormData>();
-  const onSubmit = async (data: FormData) => {
-    console.log('Send to nicolas.toro@ariesanalytics.ai:', data);
-    alert("Your message has been sent successfully.");
-    reset();
-  };
+
+const onSubmit = async (data: FormData) => {
+  try {
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      alert("Your message has been sent successfully!");
+      reset();
+    } else {
+      alert("Something went wrong. Please try again later.");
+    }
+  } catch (error) {
+    console.error('Error sending message:', error);
+    alert("There was an error sending your message.");
+  }
+};
 
   const { isDark } = useTheme();
 
