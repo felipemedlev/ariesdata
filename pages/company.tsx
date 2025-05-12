@@ -38,7 +38,7 @@ const Company: NextPage = () => {
               <Spacer y={0.5} />
               <Text h4>Regional Scope</Text>
               <Text css={{ color: '$accents7' }}>
-                We’ve delivered projects in Chile, Peru, and Colombia, tailoring solutions to diverse regulatory and business environments.
+                We have delivered projects in Chile, Peru, and Colombia, tailoring solutions to diverse regulatory and business environments.
               </Text>
             </Card>
 
