@@ -150,7 +150,7 @@ export const Nav = () => {
                {/*
                <Navbar.Link href="#">Pricing</Navbar.Link>*/}
 
-               <Navbar.Link href="#">Company</Navbar.Link>
+               <Navbar.Link href="/company">Company</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
