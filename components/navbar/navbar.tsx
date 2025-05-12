@@ -14,12 +14,14 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'Features',
-      'Customers',
-      'Pricing',
-      'Company',
-      'Legal',
-   ];
+      { label: 'Features', href: '/efficiency-as-a-service' },
+      { label: 'Financial Layer', href: '/financial_layer' },
+      { label: 'Data Governance', href: '/data-gobernance' },
+      { label: 'Artificial Intelligence', href: '/artificial-intelligence' },
+      { label: 'System Connections', href: '/system-connection' },
+      { label: 'Contact Us', href: '/contactus' },
+      { label: 'Company', href: '/company' },
+    ];
    return (
       <Navbar
          isBordered
@@ -155,6 +157,27 @@ export const Nav = () => {
          </Navbar.Brand>
 
          <Navbar.Collapse>
+               {collapseItems.map((item, index) => (
+            <Navbar.CollapseItem key={index}>
+               <Link
+               href={item.href}
+               css={{ minWidth: '100%' }}
+               color="inherit"
+               >
+               {item.label}
+               </Link>
+            </Navbar.CollapseItem>
+            ))}
+            <Navbar.CollapseItem>
+               <Switch
+                  checked={isDark}
+                  onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
+               />
+            </Navbar.CollapseItem>
+         </Navbar.Collapse>
+
+{/*            
+         <Navbar.Collapse>
             {collapseItems.map((item, index) => (
                <Navbar.CollapseItem key={item}>
                   <Link
@@ -168,7 +191,7 @@ export const Nav = () => {
                   </Link>
                </Navbar.CollapseItem>
             ))}
-            {/* <Navbar.CollapseItem>
+             <Navbar.CollapseItem>
                <Link
                   color="inherit"
                   css={{
@@ -179,7 +202,7 @@ export const Nav = () => {
                >
                   <GithubIcon />
                </Link>
-            </Navbar.CollapseItem> */}
+            </Navbar.CollapseItem> 
             <Navbar.CollapseItem>
                <Switch
                   checked={isDark}
@@ -189,6 +212,11 @@ export const Nav = () => {
                />
             </Navbar.CollapseItem>
          </Navbar.Collapse>
+*/}
+
+
+
+
          <Navbar.Content>
             {/* <ModalLogin /> */}
 
